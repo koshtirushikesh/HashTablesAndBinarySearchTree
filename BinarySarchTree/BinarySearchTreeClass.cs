@@ -11,7 +11,7 @@ namespace BinarySarchTree
         }
         public Node InsertHelper(Node root, Node node)
         {
-            int data = node.data;
+            int data = node.data; 
             if (root == null)
             {
                 root = node;
